@@ -1,0 +1,15 @@
+
+
+* {
+  background-color:rgba( 0, 150, 136, 0.2);
+  color:  white;
+  font-family: sans-serif;
+  }
+
+h1,h2,h3 {
+  background-color:rgba( 0, 150, 136, 0.4);
+}
+
+p,ol,ul {
+  background-color: rgba( 0, 150, 136, 0.5);
+   }
