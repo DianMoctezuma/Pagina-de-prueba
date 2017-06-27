@@ -1,15 +1,34 @@
 
 
-* {
-  background-color:rgba( 0, 150, 136, 0.2);
-  color:  white;
-  font-family: sans-serif;
-  }
+body{
+  background-color: #f4f7f7;
 
-h1,h2,h3 {
-  background-color:rgba( 0, 150, 136, 0.4);
 }
 
-p,ol,ul {
-  background-color: rgba( 0, 150, 136, 0.5);
-   }
+* {
+
+  font-family: 'Quicksand',sans-serif;
+  font-color: #34495E;
+  text-align: center;
+  font-size: 1.2em;
+  }
+
+.header{
+  image-orientation: center;
+  background-image: url(http://hopeinjesus.com.au/wp-content/uploads/2013/12/StarsBG.jpg);
+  width: 100%;
+  border-radius: 20px;
+  background-position: center;
+  background-size: cover;
+}
+
+
+.aboutme{
+background-color: #F4F7F7;
+text-align: center;
+border-style: solid;
+border-color:#34495E;
+border-radius: 10px;
+border-width:thick;
+column-count: 2;
+}
