@@ -1,34 +1,91 @@
 
-
-body{
-  background-color: #f4f7f7;
-
+*{
+  box-sizing: padding-box;
 }
-
-* {
-
+body {
   font-family: 'Quicksand',sans-serif;
-  font-color: #34495E;
-  text-align: center;
-  font-size: 1.2em;
+  color: #34495E;
+  font-size: 1em;
+
   }
 
-.header{
-  image-orientation: center;
-  background-image: url(http://hopeinjesus.com.au/wp-content/uploads/2013/12/StarsBG.jpg);
-  width: 100%;
-  border-radius: 20px;
+.cuerpo {
+  background-color: #f4f7f7;
+  overflow: scroll;
+}
+
+.header {
+  background-image: url(https://s-media-cache-ak0.pinimg.com/736x/7b/8d/10/7b8d1077e53df4a690efe568110d7b80--outdoor-lifestyle-photography-pinterest-photography.jpg);
   background-position: center;
+  width: 100%;
   background-size: cover;
+  color: #f4f7f7;
+  font-family: 'Raleway', serif;
+  font-weight: lighter;
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.expertise
+{
+
+  text-align: center;
+  border-bottom: 1px solid #CCC;
+ border-top: 1px solid #CCC;
+ background-color: #d8dfe2;
 }
 
 
-.aboutme{
+.name
+{
+  margin-left: 30px;
+  padding-left: 20px;
+  text-align: left;
+  vertical-align: text-top;
+}
+
+
+.header .foto
+{
+  border-radius: 50%;
+  margin left: 30px;
+  padding-left: 30px;
+  width: 200px;
+}
+
+h4{
+  font-family:  'Open Sans', sans-serif;
+  font-weight: lighter;
+}
+
+.aboutme {
 background-color: #F4F7F7;
-text-align: center;
-border-style: solid;
-border-color:#34495E;
-border-radius: 10px;
-border-width:thick;
-column-count: 2;
+text-align: right;
+padding: 10px 10px;
+border-bottom: 1px solid #CCC;
+ border-top: 1px solid #CCC;
+ margin-top: 30px;
+ margin-right: 400px;
+ margin-left: 200px;
+ width: 400px;
+
+
 }
+
+.technical-Skills{
+
+}
+
+.personal-Skills{
+
+}
+
+
+th{
+  text-align: right;
+}
+ td {
+text-align: left;
+
+ }
